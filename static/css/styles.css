@@ -1,0 +1,43 @@
+.container-2 {
+  border: 1px solid black;
+  margin: 0 auto;
+  width: 75%;
+  text-align: center;
+}
+
+.flexbox-container-2 {
+  border: 1px solid black;
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container-3 {
+  border: 1px solid black;
+  margin: 0 auto;
+  width: 75%;
+  text-align: center;
+}
+
+.flex-box-sps img:hover {
+  box-shadow: 0px 10px 50px orange;
+}
+
+.flex-box-sps {
+  border: 1px solid black;
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.scorecard-div {
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+}
+.scorecard-div p {
+  padding-right: 30px;
+}

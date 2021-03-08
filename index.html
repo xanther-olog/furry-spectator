@@ -1,0 +1,58 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="static/css/styles.css" />
+    <title>JavaScript on Steroids</title>
+  </head>
+  <body>
+    <script src="static/js/script.js"></script>
+    <div class="container-2">
+      <h2>Cat generator</h2>
+      <button class="btn btn-success" onclick="getACat()">
+        Generate a cat!
+      </button>
+      <div class="flexbox-container-2" id="flexbox-container-2"></div>
+    </div>
+    <div class="container-3">
+      <h2>Rock , paper , scissors</h2>
+      <div class="scorecard-div">
+        <p class="score-text" id="score-text">Score:</p>
+        <p class="score-num" id="score-num">0</p>
+      </div>
+      <div class="flex-box-sps" id="flex-box-sps">
+        <img
+          src="https://specials-images.forbesimg.com/imageserve/5f5ebdfe1a1834b803586841/960x0.jpg?fit=scale"
+          alt="Rock"
+          id="Rock"
+          width="150"
+          height="150"
+          onclick="playSPS(this)"
+        />
+        <img
+          src="https://img.etimg.com/thumb/msid-61941670,width-210,imgsize-25928,,resizemode-4,quality-100/.jpg"
+          alt="Paper"
+          id="Paper"
+          width="150"
+          height="150"
+          onclick="playSPS(this)"
+        />
+
+        <img
+          src="https://cdn.japanahome.com/wp-content/uploads/2018/03/LUB03584-Edit-700x700.jpg"
+          alt="Scissors"
+          id="Scissors"
+          width="150"
+          height="150"
+          onclick="playSPS(this)"
+        />
+      </div>
+      <div class="sps-result" id="sps-result"></div>
+    </div>
+  </body>
+</html>
